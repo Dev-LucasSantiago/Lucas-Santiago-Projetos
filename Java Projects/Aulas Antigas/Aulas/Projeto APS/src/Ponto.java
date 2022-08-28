@@ -14,13 +14,13 @@ public class Ponto {
 	public static void main(String[] args) {
 		
 		
-		String[][] usuario = new String [5][1]; //Uma matriz para colocar o nome dos usu�rios
+		String[][] usuario = new String [5][1]; //Uma matriz para colocar o nome dos usuários
 		
 		Scanner leitor = new Scanner(System.in); 
 		
-		int mat,retorno = 0; //Vari�veis de la�o para o programa sempre continuar
+		int mat,retorno = 0; //Variáveis de laço para o programa sempre continuar rodando
 		
-		//Usu�rios j� cadastrados, por que n�o tem banco de dados
+		//Usuários já cadastrados, por que não tem banco de dados
 		usuario[0][0] = "Antónia Adriana Vasconcelos Freitas"; // Nome dos alunos dessa APS
 		usuario[1][0] = "Lucas Souza Santiago";
 		usuario[2][0] = "Taisia Evellin Marçal de Oliveira";
@@ -29,14 +29,14 @@ public class Ponto {
 		
 		
 		
-		System.out.println("---BEM VINDO AO SISTEMA DE PONTO---"+"\nFeito pelos Alunos(as): \n---Adriana,Lucas, Taísia e Vitor---"); //Tela de boas vindas dos programa
+		System.out.println("---BEM VINDO AO SISTEMA DE PONTO---"+"\nFeito pelos Alunos(as): \n---Adriana, Lucas, Taísia e Vitor---"); //Tela de boas vindas dos programa
 		
 		//while retorno fazendo um Laço infinito para sempre voltar a matrícula
 		while(retorno != 1) {
 			System.out.print("Digite a sua MATRÍCULA: ");
-			mat = leitor.nextInt(); //nextInt Puxando a matrícula e inserindo na vari�vel mat
+			mat = leitor.nextInt(); //nextInt Puxando a matrícula e inserindo na variável mat
 			
-			//while com a variável "mat", enquanto "mat" for diferente de 0 ent�o fa�a
+			//while com a variável "mat", enquanto "mat" for diferente de 0 então faça
 			while(mat != 0){
 				//if com condição, para verificar se a matrícula dos usuários estão corretas
 				if(mat == 1000) {
